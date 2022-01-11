@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Regular.woff") format(woff);
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Bold.woff") format(woff);
+    font-weight:bold;
+}
+@font-face {
+    font-family:"Lato";
+    src:url("../fonts/Lato-Italic.woff") format(woff);
+    font-style:italic;
+}
+
+
+/***************************************************************************
+                                Géneralité    
+***************************************************************************/
+
+body{
+    font-family: 'Lato', sans-serif;
+    color:#333;
+    line-height:1.6em;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+h1,h2,h3{
+    font-weight:normal;
+    line-height:1.5em;
+}
+
+h1, .container{
+    margin:auto;
+}
+.nav a, .readmore, .adresse a{
+    font-weight:bold;
+    text-decoration: none;
+    
+}
+.nav a, .readmore,.footer a{
+    color:white;
+}
+.flex{
+    display: flex;
+}
+.header,.footer{
+    text-align:center;
+    
+    
+}
+
+/***************************************************************************
+                                Header  
+***************************************************************************/
+/*Menu*/
+.nav .menu {
+    display: flex; 
+    flex-direction : row; 
+    justify-content: space-evenly;
+    margin-top:30px;
+    margin-bottom:30px;
+    background:#40CCEA;
+    list-style:none;
+    
+    
+}
+.nav a {
+    padding:1em;
+    display: block;
+    text-align:center;
+
+
+}
+
+/***************************************************************************
+                             Main  
+***************************************************************************/
+/*classe Container*/
+.container{
+    width:90%;
+    max-width:900px;
+
+}
+
+h1{
+    font-size:3rem;
+    color:#40CCEA;
+    word-spacing:10px;
+    border-bottom:1px dotted #40CCEA;
+    text-align:center;
+    width: 90%;
+}
+article{
+    padding-bottom:25px;
+
+}
+/*-----  1ere SECTION carnet de voyage----*/
+h2{
+    font-size:1.6rem;
+    text-transform:uppercase;
+}
+
+
+h3{
+    font-size:1.4rem;
+}
+
+
+.bordure{
+    border-bottom:1px solid black;
+}
+article img{
+    max-width:49%;
+}
+
+.red{
+    color:#F00;
+}
+.ocre{
+    color:#CD8C56;
+}
+/*float*/
+.right{
+    float:right;
+    
+}
+.left{
+    float:left;
+    margin-right:15px;
+}
+
+.clear{
+    clear:both;
+    
+}
+/*les liens suivre moi*/
+.readmore{
+    background-color: #0096D0;
+    border-radius:6px;
+    padding:3px;
+    
+}
+
+
+/*-----  2eme SECTION  a propos----*/
+.propos{
+     white-space:normal;
+     width:48%;
+     background-color:white;
+     padding:2%;
+     margin:3% 0;
+     
+    
+}
+.bgimage{
+    background-image: url(../ressources/fond.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+
+    
+}
+/*-----  3eme SECTION ME contacter----*/
+.adresse{
+    display: block;
+}
+.fa-facebook-square{
+    color:#4267B2;
+    font-size:2rem;
+}
+.fa-twitter
+{
+    color:#1da1f2;
+    font-size:2rem;
+}
+.fa-pinterest{
+    color:#bd081c;
+    font-size:2rem;
+}
+.fa-instagram-square{
+    color:#8948C1;
+    font-size:2rem;
+}
+
+/***************************************************************************
+                               Footer  
+***************************************************************************/
+.footer{
+    background-color: #40CCEA;
+    text-align:center;
+    color:white;
+    
+}
+.footer img{
+    width:60px;
+   padding-top:15px;
+    
+}
+.footer a{
+    color:white;
+}
